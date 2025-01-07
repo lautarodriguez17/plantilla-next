@@ -15,7 +15,8 @@ import InputAdornment from '@mui/material/InputAdornment'
 import Checkbox from '@mui/material/Checkbox'
 import Button from '@mui/material/Button'
 import FormControlLabel from '@mui/material/FormControlLabel'
-import Divider from '@mui/material/Divider'
+
+//import Divider from '@mui/material/Divider'
 
 // Third-party Imports
 import classnames from 'classnames'
@@ -66,10 +67,10 @@ const LoginV2 = ({ mode }: { mode: SystemMode }) => {
   // Vars
   const darkImg = '/images/pages/auth-mask-dark.png'
   const lightImg = '/images/pages/auth-mask-light.png'
-  const darkIllustration = '/images/illustrations/auth/v2-login-dark.png'
-  const lightIllustration = '/images/illustrations/auth/v2-login-light.png'
-  const borderedDarkIllustration = '/images/illustrations/auth/v2-login-dark-border.png'
-  const borderedLightIllustration = '/images/illustrations/auth/v2-login-light-border.png'
+  const darkIllustration = '/images/illustrations/auth/v3-login-dark.png'
+  const lightIllustration = '/images/illustrations/auth/v3-login-dark.png'
+  const borderedDarkIllustration = '/images/illustrations/auth/v3-login-dark.png'
+  const borderedLightIllustration = '/images/illustrations/auth/v3-login-dark.png'
 
   // Hooks
   const router = useRouter()
@@ -157,7 +158,7 @@ const LoginV2 = ({ mode }: { mode: SystemMode }) => {
                 Create an account
               </Typography>
             </div>
-            <Divider className='gap-2 text-textPrimary'>or</Divider>
+            {/* <Divider className='gap-2 text-textPrimary'>or</Divider>
             <div className='flex justify-center items-center gap-1.5'>
               <IconButton className='text-facebook' size='small'>
                 <i className='tabler-brand-facebook-filled' />
@@ -171,7 +172,7 @@ const LoginV2 = ({ mode }: { mode: SystemMode }) => {
               <IconButton className='text-error' size='small'>
                 <i className='tabler-brand-google-filled' />
               </IconButton>
-            </div>
+            </div> */}
           </form>
         </div>
       </div>

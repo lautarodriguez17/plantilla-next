@@ -50,10 +50,10 @@ export type Config = {
 }
 
 const themeConfig: Config = {
-  templateName: 'Vuexy',
+  templateName: 'PiData',
   homePageUrl: '/home',
-  settingsCookieName: 'vuexy-mui-next-demo-1',
-  mode: 'system', // 'system', 'light', 'dark'
+  settingsCookieName: 'pidata-mui-theme-settings-v3',
+  mode: 'light', // 'system', 'light', 'dark'
   skin: 'default', // 'default', 'bordered'
   semiDark: false, // true, false
   layout: 'vertical', // 'vertical', 'collapsed', 'horizontal'
@@ -63,7 +63,7 @@ const themeConfig: Config = {
     type: 'fixed', // 'fixed', 'static'
     contentWidth: 'compact', // 'compact', 'wide'
     floating: true, //! true, false (This will not work in the Horizontal Layout)
-    detached: true, //! true, false (This will not work in the Horizontal Layout or floating navbar is enabled)
+    detached: false, //! true, false (This will not work in the Horizontal Layout or floating navbar is enabled)
     blur: true // true, false
   },
   contentWidth: 'compact', // 'compact', 'wide'
